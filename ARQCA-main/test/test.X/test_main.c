@@ -40,12 +40,12 @@ void main()
     TRISB=0x00;         /* Set direction of PORTB as OUTPUT to which LED is connected */
     while(1)
     {
-        LED = ON_LED;     /* Turn ON LED for 500 ms */
-        //ms_delay(500);
-        __delay_ms(500);
-        LED = OFF_LED;        /* Turn OFF LED for 500 ms */
-        //ms_delay(500);
-        __delay_ms(500);
+        LED = ON_LED;     /* Turn ON LED for 1000 ms */
+        //ms_delay(1000);
+        __delay_ms(1000);
+        LED = OFF_LED;        /* Turn OFF LED for 2000 ms */
+        //ms_delay(2000);
+        __delay_ms(2000);
     }
 }
 
